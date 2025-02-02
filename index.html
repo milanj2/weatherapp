@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <link href="/styles.css" rel="stylesheet" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        </style>
+    </head>
+    
+    <body>
+        <div class="phone-container">
+            <div class="iphone">
+                <div class="notch"></div>
+                <div class="screen">
+                    <div class="app-container">
+                        <main class="weather-container">
+                            <div class="weather-card">
+                                <div class="location">
+                                    <h2>New York</h2>
+                                </div>
+                                <div class="weather-info">
+                                    <div class="weather-info-container">
+                                        <div class="weather-icon">
+                                            <img src="assets/cloud.png" alt="Cloud">
+                                        </div>
+                                        <div class="temperature">
+                                            <span class="temp-value">55</span>
+                                            <span class="main-unit-super">°F</span>
+                                        </div>
+                                    </div>
+                                    <div class="weather-description">Partly Cloudy</div>
+                                    <div class="temp-range">
+                                        <div class="low">
+                                            L: <span class="temp-value">48</span>
+                                            <span class="range-unit-super">°</span>
+                                        </div>
+                                        <div class="high">
+                                            H: <span class="temp-value">62</span>
+                                            <span class="range-unit-super">°</span>
+                                        </div>
+                                    </div>
+                                    <div class="additional-info">
+                                        <div class="feels-like">
+                                            Feels Like: <span class="temp-value">&nbsp;50</span>
+                                            <span class="range-unit-super">°</span>
+                                        </div>
+                                        <div class="separator"></div>
+                                        <div class="sunset">
+                                            Sunset: 6:28pm
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </main>
+                        <div class="hourly-container">
+                            <div class="weather-card">
+                                <div class="timeline">
+                                    <div class="time-slot">
+                                        <span class="hour">Now</span>
+                                        <div class="weather-icon">
+                                            <img src="assets/cloud.png" alt="Cloud">
+                                        </div>
+                                        <span class="temp">55°</span>
+                                    </div>
+                                    <div class="time-slot">
+                                        <span class="hour">1pm</span>
+                                        <div class="weather-icon">
+                                            <img src="assets/cloud.png" alt="Cloud">
+                                        </div>
+                                        <span class="temp">56°</span>
+                                    </div>
+                                    <div class="time-slot">
+                                        <span class="hour">2pm</span>
+                                        <div class="weather-icon">
+                                            <img src="assets/cloud.png" alt="Cloud">
+                                        </div>
+                                        <span class="temp">56°</span>
+                                    </div>
+                                    <div class="time-slot">
+                                        <span class="hour">3pm</span>
+                                        <div class="weather-icon">
+                                            <img src="assets/cloud.png" alt="Cloud">
+                                        </div>
+                                        <span class="temp">55°</span>
+                                    </div>
+                                    <div class="time-slot">
+                                        <span class="hour">4pm</span>
+                                        <div class="weather-icon">
+                                            <img src="assets/cloud.png" alt="Cloud">
+                                        </div>
+                                        <span class="temp">58°</span>
+                                    </div>
+                                    <div class="time-slot">
+                                        <span class="hour">5pm</span>
+                                        <div class="weather-icon">
+                                            <img src="assets/sun.png" alt="Sun">
+                                        </div>
+                                        <span class="temp">53°</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="weekly-container">
+                            <div class="weather-card">
+                                <div class="weekly-forecast">
+                                    <div class="forecast-row">
+                                        <span class="day">Monday</span>
+                                        <div class="weather-icon">
+                                            <img src="assets/cloud.png" alt="Cloud">
+                                        </div>
+                                        <div class="temp-range">
+                                            <span>48°</span>
+                                            <span class="temp-divider"></span>
+                                            <span>71°</span>
+                                        </div>
+                                    </div>
+                                    <div class="forecast-row">
+                                        <span class="day">Tuesday</span>
+                                        <div class="weather-icon">
+                                            <img src="assets/cloud.png" alt="Cloud">
+                                        </div>
+                                        <div class="temp-range">
+                                            <span>42°</span>
+                                            <span class="temp-divider"></span>
+                                            <span>56°</span>
+                                        </div>
+                                    </div>
+                                    <div class="forecast-row">
+                                        <span class="day">Wednesday</span>
+                                        <div class="weather-icon">
+                                            <img src="assets/cloud.png" alt="Cloud">
+                                        </div>
+                                        <div class="temp-range">
+                                            <span>40°</span>
+                                            <span class="temp-divider"></span>
+                                            <span>58°</span>
+                                        </div>
+                                    </div>
+                                    <div class="forecast-row">
+                                        <span class="day">Thursday</span>
+                                        <div class="weather-icon">
+                                            <img src="assets/sun.png" alt="Sun">
+                                        </div>
+                                        <div class="temp-range">
+                                            <span>56°</span>
+                                            <span class="temp-divider"></span>
+                                            <span>68°</span>
+                                        </div>
+                                    </div>
+                                    <div class="forecast-row">
+                                        <span class="day">Friday</span>
+                                        <div class="weather-icon">
+                                            <img src="assets/sun.png" alt="Sun">
+                                        </div>
+                                        <div class="temp-range">
+                                            <span>55°</span>
+                                            <span class="temp-divider"></span>
+                                            <span>69°</span>
+                                        </div>
+                                    </div>
+                                    <div class="forecast-row">
+                                        <span class="day">Saturday</span>
+                                        <div class="weather-icon">
+                                            <img src="assets/snow.png" alt="Snow">
+                                        </div>
+                                        <div class="temp-range">
+                                            <span>18°</span>
+                                            <span class="temp-divider"></span>
+                                            <span>31°</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>    
+</html>
