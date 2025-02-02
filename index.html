@@ -27,24 +27,24 @@
                                             <img src="assets/cloud.png" alt="Cloud">
                                         </div>
                                         <div class="temperature">
-                                            <span class="temp-value">55</span>
-                                            <span class="main-unit-super">°F</span>
+                                            <span class="temp-value" id="temp-value">55</span>
+                                            <span class="main-unit-super" id="temp-unit">°F</span>
                                         </div>
                                     </div>
                                     <div class="weather-description">Partly Cloudy</div>
                                     <div class="temp-range">
                                         <div class="low">
-                                            L: <span class="temp-value">48</span>
+                                            L: <span class="temp-value" id="low-temp">48</span>
                                             <span class="range-unit-super">°</span>
                                         </div>
                                         <div class="high">
-                                            H: <span class="temp-value">62</span>
+                                            H: <span class="temp-value" id="high-temp">62</span>
                                             <span class="range-unit-super">°</span>
                                         </div>
                                     </div>
                                     <div class="additional-info">
                                         <div class="feels-like">
-                                            Feels Like: <span class="temp-value">&nbsp;50</span>
+                                            Feels Like:&nbsp;<span class="temp-value" id="feels-like-temp">50</span>
                                             <span class="range-unit-super">°</span>
                                         </div>
                                         <div class="separator"></div>
@@ -63,42 +63,42 @@
                                         <div class="weather-icon">
                                             <img src="assets/cloud.png" alt="Cloud">
                                         </div>
-                                        <span class="temp">55°</span>
+                                        <span class="temp" id="hourly-temp-0">55°</span>
                                     </div>
                                     <div class="time-slot">
                                         <span class="hour">1pm</span>
                                         <div class="weather-icon">
                                             <img src="assets/cloud.png" alt="Cloud">
                                         </div>
-                                        <span class="temp">56°</span>
+                                        <span class="temp" id="hourly-temp-1">56°</span>
                                     </div>
                                     <div class="time-slot">
                                         <span class="hour">2pm</span>
                                         <div class="weather-icon">
                                             <img src="assets/cloud.png" alt="Cloud">
                                         </div>
-                                        <span class="temp">56°</span>
+                                        <span class="temp" id="hourly-temp-2">56°</span>
                                     </div>
                                     <div class="time-slot">
                                         <span class="hour">3pm</span>
                                         <div class="weather-icon">
                                             <img src="assets/cloud.png" alt="Cloud">
                                         </div>
-                                        <span class="temp">55°</span>
+                                        <span class="temp" id="hourly-temp-3">55°</span>
                                     </div>
                                     <div class="time-slot">
                                         <span class="hour">4pm</span>
                                         <div class="weather-icon">
                                             <img src="assets/cloud.png" alt="Cloud">
                                         </div>
-                                        <span class="temp">58°</span>
+                                        <span class="temp" id="hourly-temp-4">58°</span>
                                     </div>
                                     <div class="time-slot">
                                         <span class="hour">5pm</span>
                                         <div class="weather-icon">
                                             <img src="assets/sun.png" alt="Sun">
                                         </div>
-                                        <span class="temp">53°</span>
+                                        <span class="temp" id="hourly-temp-5">53°</span>
                                     </div>
                                 </div>
                             </div>
@@ -112,9 +112,9 @@
                                             <img src="assets/cloud.png" alt="Cloud">
                                         </div>
                                         <div class="temp-range">
-                                            <span>48°</span>
+                                            <span id="monday-low">48°</span>
                                             <span class="temp-divider"></span>
-                                            <span>71°</span>
+                                            <span id="monday-high">71°</span>
                                         </div>
                                     </div>
                                     <div class="forecast-row">
@@ -123,9 +123,9 @@
                                             <img src="assets/cloud.png" alt="Cloud">
                                         </div>
                                         <div class="temp-range">
-                                            <span>42°</span>
+                                            <span id="tuesday-low">42°</span>
                                             <span class="temp-divider"></span>
-                                            <span>56°</span>
+                                            <span id="tuesday-high">56°</span>
                                         </div>
                                     </div>
                                     <div class="forecast-row">
@@ -134,9 +134,9 @@
                                             <img src="assets/cloud.png" alt="Cloud">
                                         </div>
                                         <div class="temp-range">
-                                            <span>40°</span>
+                                            <span id="wednesday-low">40°</span>
                                             <span class="temp-divider"></span>
-                                            <span>58°</span>
+                                            <span id="wednesday-high">58°</span>
                                         </div>
                                     </div>
                                     <div class="forecast-row">
@@ -145,9 +145,9 @@
                                             <img src="assets/sun.png" alt="Sun">
                                         </div>
                                         <div class="temp-range">
-                                            <span>56°</span>
+                                            <span id="thursday-low">56°</span>
                                             <span class="temp-divider"></span>
-                                            <span>68°</span>
+                                            <span id="thursday-high">68°</span>
                                         </div>
                                     </div>
                                     <div class="forecast-row">
@@ -156,9 +156,9 @@
                                             <img src="assets/sun.png" alt="Sun">
                                         </div>
                                         <div class="temp-range">
-                                            <span>55°</span>
+                                            <span id="friday-low">55°</span>
                                             <span class="temp-divider"></span>
-                                            <span>69°</span>
+                                            <span id="friday-high">69°</span>
                                         </div>
                                     </div>
                                     <div class="forecast-row">
@@ -167,9 +167,9 @@
                                             <img src="assets/snow.png" alt="Snow">
                                         </div>
                                         <div class="temp-range">
-                                            <span>18°</span>
+                                            <span id="saturday-low">18°</span>
                                             <span class="temp-divider"></span>
-                                            <span>31°</span>
+                                            <span id="saturday-high">31°</span>
                                         </div>
                                     </div>
                                 </div>
@@ -179,5 +179,6 @@
                 </div>
             </div>
         </div>
+        <script src="script.js"></script>
     </body>    
 </html>
